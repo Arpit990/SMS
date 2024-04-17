@@ -1,9 +1,11 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using SpeakerManagementSystem.Models;
+using SpeakerManagementSystem.Models.Common;
 using System.Diagnostics;
 
 namespace SpeakerManagementSystem.Controllers
 {
+    [Authorize]
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;

@@ -1,4 +1,4 @@
-namespace SpeakerManagementSystem.Models
+namespace SpeakerManagementSystem.Models.Common
 {
     public class ErrorViewModel
     {
